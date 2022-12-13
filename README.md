@@ -95,11 +95,11 @@ Url: https://tabservertest.azurewebsites.net/messages/delete/{id}
  
 
 ## Admin chat table:
-1.  	GET (all chats and their admins):
+1. GET (all chats and their admins):
 Url: https://tabservertest.azurewebsites.net/admin/chat
-2.  	GET (chat by id)
+2. GET (chat by id)
 Url: https://tabservertest.azurewebsites.net/admin/chat/get_chat/{id}
-3.  	POST (chat with admins)
+3. POST (chat with admins)
 Url: https://tabservertest.azurewebsites.net/admin/chat
 Body:
 {"id": int,
